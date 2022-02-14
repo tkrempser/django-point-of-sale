@@ -1,5 +1,9 @@
 # point-of-sale
 
+## Class diagrams
+Basic representation of this project's models:
+![Class diagram](https://raw.githubusercontent.com/tkrempser/point-of-sale/main/etc/class-diagram.svg)
+
 ## Generating the secret key for Django
 Open a terminal and execute:
 ```
