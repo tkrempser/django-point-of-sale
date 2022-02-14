@@ -3,6 +3,7 @@ autopep8==1.6.0
 backports.zoneinfo==0.2.1
 Django==4.0.2
 pkg_resources==0.0.0
+psycopg2-binary==2.9.3
 pycodestyle==2.8.0
 python-decouple==3.6
 sqlparse==0.4.2
