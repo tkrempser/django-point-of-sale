@@ -19,7 +19,7 @@ class CustomerSerializer(serializers.HyperlinkedModelSerializer):
 class ProductrSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Product
-        fields = ['url', 'name', 'price']
+        fields = ['url', 'name', 'price', 'commission']
 
 
 class OrderSerializer(serializers.HyperlinkedModelSerializer):
