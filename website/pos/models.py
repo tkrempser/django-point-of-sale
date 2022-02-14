@@ -5,12 +5,18 @@ from django.contrib.auth.models import User
 class Customer(models.Model):
     first_name = models.CharField(max_length=30)
     last_name = models.CharField(max_length=30)
-    email = models.EmailField()
+    email = models.EmailField(unique=True)
+
+    def __str__(self):
+        return self.email
 
 
 class Product(models.Model):
     name = models.CharField(max_length=60)
     price = models.FloatField()
+
+    def __str__(self):
+        return self.name
 
 
 class Order(models.Model):
@@ -19,6 +25,9 @@ class Order(models.Model):
     seller = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name='orders')
     created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.customer.email
 
 
 class OrderProduct(models.Model):
