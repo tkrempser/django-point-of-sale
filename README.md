@@ -8,7 +8,7 @@ python -c 'from django.core.management.utils import get_random_secret_key; print
 Grab the output and replace the <SECRET_KEY> on the template below.
 
 ## Creating .key file
-Create a .env file in the same directory of `manage.py` file using this template:
+Create a `.env` file in the same directory of `manage.py` file using this template:
 
 ```
 SECRET_KEY=<SECRET_KEY>
