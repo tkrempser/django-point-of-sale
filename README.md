@@ -22,7 +22,7 @@ DATABASE_PORT=5432
 ```
 
 ## Running a Docker PostgreSQL instance
-Create a folder for PostgreSQL data:
+Create a folder to store PostgreSQL data:
 ```
 mkdir ${HOME}/postgres-data/
 ```
@@ -32,7 +32,7 @@ sudo docker pull postgres
 ```
 Create a container named `postgres`:
 ```
-sudo docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=<DATABASE_PASSWORD> -v ${HOME}/postgres-data/:/var/lib/postgresql/data postgres  # Database user = postgres
+sudo docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=<DATABASE_PASSWORD> -v ${HOME}/postgres-data/:/var/lib/postgresql/data postgres
 ```
 Finally, start the container:
 ```
