@@ -12,10 +12,10 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   height="297.6pt"
-   viewBox="0.00 0.00 888.00 248.00"
-   weidth="888pt"
-   width="1065.6000000000001pt"
+   height="298.8pt"
+   viewBox="0.00 0.00 858.00 249.00"
+   weidth="858pt"
+   width="1029.6pt"
    version="1.1"
    id="svg3152"
    sodipodi:docname="class-diagram.svg"
@@ -45,9 +45,9 @@
      inkscape:window-height="1043"
      id="namedview3154"
      showgrid="false"
-     inkscape:zoom="1.9538289"
-     inkscape:cx="1681.6275"
-     inkscape:cy="83.071955"
+     inkscape:zoom="2.0221446"
+     inkscape:cx="1374.557"
+     inkscape:cy="-114.72825"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -9010,7 +9010,7 @@
   <g
      class="graph"
      id="graph0"
-     transform="scale(1 1) rotate(0) translate(4 214)">
+     transform="scale(1 1) rotate(0) translate(4 215)">
     <title
        id="title3040">structs</title>
     <g
@@ -9020,7 +9020,7 @@
          id="title3042">Customer</title>
       <polygon
          fill="white"
-         points="0.5,-68 0.5,-156 143.5,-156 143.5,-68 0.5,-68"
+         points="0.5,-72 0.5,-160 143.5,-160 143.5,-72 0.5,-72"
          stroke="black"
          style="fill:white;stroke:black;"
          id="polygon3044" />
@@ -9029,11 +9029,11 @@
          text-anchor="middle"
          transform="translate(0,0)"
          x="72"
-         y="-137.8"
+         y="-141.8"
          id="text3046">Customer</text>
       <polyline
          fill="none"
-         points="0.5,-127 143.5,-127 "
+         points="0.5,-131 143.5,-131 "
          stroke="black"
          id="polyline3048" />
       <text
@@ -9041,21 +9041,21 @@
          text-anchor="middle"
          transform="translate(0,0)"
          x="72"
-         y="-108.8"
+         y="-112.8"
          id="text3050">+first_name: CharField</text>
       <text
          style="font-size:10px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
          x="72"
-         y="-93.8"
+         y="-97.8"
          id="text3052">+last_name: CharField</text>
       <text
          style="font-size:10px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
          x="72"
-         y="-78.8"
+         y="-82.8"
          id="text3054">+email: EmailField</text>
     </g>
     <g
@@ -9065,7 +9065,7 @@
          id="title3057">Order</title>
       <polygon
          fill="white"
-         points="234,-83 234,-141 402,-141 402,-83 234,-83"
+         points="234,-87 234,-145 402,-145 402,-87 234,-87"
          stroke="black"
          style="fill:white;stroke:black;"
          id="polygon3059" />
@@ -9074,11 +9074,11 @@
          text-anchor="middle"
          transform="translate(0,0)"
          x="318"
-         y="-122.8"
+         y="-126.8"
          id="text3061">Order</text>
       <polyline
          fill="none"
-         points="234,-112 402,-112 "
+         points="234,-116 402,-116 "
          stroke="black"
          id="polyline3063" />
       <text
@@ -9086,7 +9086,7 @@
          text-anchor="middle"
          transform="translate(0,0)"
          x="318"
-         y="-93.8"
+         y="-97.8"
          id="text3065">+created_at: DateTimeField</text>
     </g>
     <g
@@ -9095,7 +9095,7 @@
       <title
          id="title3068">Customer-&gt;Order</title>
       <path
-         d="M143.575,-112C171.724,-112 204.345,-112 233.648,-112"
+         d="M143.575,-116C171.724,-116 204.345,-116 233.648,-116"
          fill="none"
          stroke="black"
          id="path3070" />
@@ -9104,14 +9104,14 @@
          text-anchor="middle"
          transform="translate(0,0)"
          x="214.854"
-         y="-101.46"
+         y="-105.46"
          id="text3072">0..*</text>
       <text
          style="font-size:8px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
          x="162.369"
-         y="-115.14"
+         y="-119.14"
          id="text3074">1</text>
     </g>
     <g
@@ -9121,7 +9121,7 @@
          id="title3077">OrderProduct</title>
       <polygon
          fill="white"
-         points="493.5,-137 493.5,-195 634.5,-195 634.5,-137 493.5,-137"
+         points="492.5,-137.5 492.5,-210.5 645.5,-210.5 645.5,-137.5 492.5,-137.5"
          stroke="black"
          style="fill:white;stroke:black;"
          id="polygon3079" />
@@ -9129,175 +9129,175 @@
          style="font-size:10px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
-         x="564"
-         y="-176.8"
+         x="569"
+         y="-192.3"
          id="text3081">OrderProduct</text>
       <polyline
          fill="none"
-         points="493.5,-166 634.5,-166 "
+         points="492.5,-181.5 645.5,-181.5 "
          stroke="black"
          id="polyline3083" />
       <text
          style="font-size:10px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
-         x="564"
-         y="-147.8"
-         id="text3085">+quantity: IntegerField</text>
+         x="569"
+         y="-163.3"
+         id="text3085">+commission: FloatField</text>
+      <text
+         style="font-size:10px; font-family:Verdana;"
+         text-anchor="middle"
+         transform="translate(0,0)"
+         x="569"
+         y="-148.3"
+         id="text3087">+quantity: IntegerField</text>
     </g>
     <g
        class="edge"
        id="edge2">
       <title
-         id="title3088">Order-&gt;OrderProduct</title>
+         id="title3090">Order-&gt;OrderProduct</title>
       <path
-         d="M402.289,-130.433C431.971,-137.002 465.063,-144.326 493.468,-150.612"
+         d="M402.26,-135.394C431.384,-142.178 463.902,-149.752 492.369,-156.383"
          fill="none"
          stroke="black"
-         id="path3090" />
+         id="path3092" />
       <text
          style="font-size:8px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
-         x="476.597"
-         y="-136.172"
-         id="text3092">1..*</text>
+         x="475.617"
+         y="-141.758"
+         id="text3094">1..*</text>
       <text
          style="font-size:8px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
-         x="419.16"
-         y="-137.473"
-         id="text3094">1</text>
+         x="419.012"
+         y="-142.619"
+         id="text3096">1</text>
     </g>
     <g
        class="node"
        id="node5">
       <title
-         id="title3097">Seller</title>
+         id="title3099">Seller</title>
       <polygon
          fill="white"
-         points="492.5,-0 492.5,-118 635.5,-118 635.5,-0 492.5,-0"
+         points="497.5,-0 497.5,-118 640.5,-118 640.5,-0 497.5,-0"
          stroke="black"
          style="fill:white;stroke:black;"
-         id="polygon3099" />
+         id="polygon3101" />
       <text
          style="font-size:10px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
-         x="564"
+         x="569"
          y="-99.8"
-         id="text3101">Seller</text>
+         id="text3103">Seller</text>
       <polyline
          fill="none"
-         points="492.5,-89 635.5,-89 "
+         points="497.5,-89 640.5,-89 "
          stroke="black"
-         id="polyline3103" />
+         id="polyline3105" />
       <text
          style="font-size:10px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
-         x="564"
+         x="569"
          y="-70.8"
-         id="text3105">+username: CharField</text>
+         id="text3107">+username: CharField</text>
       <text
          style="font-size:10px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
-         x="564"
+         x="569"
          y="-55.8"
-         id="text3107">+first_name: CharField</text>
+         id="text3109">+first_name: CharField</text>
       <text
          style="font-size:10px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
-         x="564"
+         x="569"
          y="-40.8"
-         id="text3109">+last_name: CharField</text>
+         id="text3111">+last_name: CharField</text>
       <text
          style="font-size:10px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
-         x="564"
+         x="569"
          y="-25.8"
-         id="text3111">+email: EmailField</text>
+         id="text3113">+email: EmailField</text>
       <text
          style="font-size:10px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
-         x="564"
+         x="569"
          y="-10.8"
-         id="text3113">+password: CharField</text>
+         id="text3115">+password: CharField</text>
     </g>
     <g
        class="edge"
        id="edge4">
       <title
-         id="title3116">Order-&gt;Seller</title>
+         id="title3118">Order-&gt;Seller</title>
       <path
-         d="M402.289,-93.9086C431.556,-87.5513 464.141,-80.4736 492.277,-74.362"
+         d="M402.26,-96.9406C433.08,-89.8853 467.702,-81.9597 497.301,-75.1841"
          fill="none"
          stroke="black"
-         id="path3118" />
+         id="path3120" />
       <text
          style="font-size:8px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
-         x="472.459"
-         y="-67.9668"
-         id="text3120">1</text>
+         x="477.455"
+         y="-69.0099"
+         id="text3122">1</text>
       <text
          style="font-size:8px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
          x="422.106"
-         y="-92.9039"
-         id="text3122">0..*</text>
+         y="-95.7148"
+         id="text3124">0..*</text>
     </g>
     <g
        class="node"
        id="node4">
       <title
-         id="title3125">Product</title>
+         id="title3127">Product</title>
       <polygon
          fill="white"
-         points="726.5,-122 726.5,-210 879.5,-210 879.5,-122 726.5,-122"
+         points="736,-137.5 736,-210.5 850,-210.5 850,-137.5 736,-137.5"
          stroke="black"
          style="fill:white;stroke:black;"
-         id="polygon3127" />
+         id="polygon3129" />
       <text
          style="font-size:10px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
-         x="803"
-         y="-191.8"
-         id="text3129">Product</text>
+         x="793"
+         y="-192.3"
+         id="text3131">Product</text>
       <polyline
          fill="none"
-         points="726.5,-181 879.5,-181 "
+         points="736,-181.5 850,-181.5 "
          stroke="black"
-         id="polyline3131" />
+         id="polyline3133" />
       <text
          style="font-size:10px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
-         x="803"
-         y="-162.8"
-         id="text3133">+name: CharField</text>
+         x="793"
+         y="-163.3"
+         id="text3135">+name: CharField</text>
       <text
          style="font-size:10px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
-         x="803"
-         y="-147.8"
-         id="text3135">+price: FloatField</text>
-      <text
-         style="font-size:10px; font-family:Verdana;"
-         text-anchor="middle"
-         transform="translate(0,0)"
-         x="803"
-         y="-132.8"
-         id="text3137">+commission: FloatField</text>
+         x="793"
+         y="-148.3"
+         id="text3137">+price: FloatField</text>
     </g>
     <g
        class="edge"
@@ -9305,7 +9305,7 @@
       <title
          id="title3140">OrderProduct-&gt;Product</title>
       <path
-         d="M634.506,-166C663.326,-166 696.838,-166 726.28,-166"
+         d="M645.779,-174C675.297,-174 708.522,-174 735.833,-174"
          fill="none"
          stroke="black"
          id="path3142" />
@@ -9313,15 +9313,15 @@
          style="font-size:8px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
-         x="707.487"
-         y="-155.46"
+         x="717.039"
+         y="-163.46"
          id="text3144">1</text>
       <text
          style="font-size:8px; font-family:Verdana;"
          text-anchor="middle"
          transform="translate(0,0)"
-         x="653.3"
-         y="-169.14"
+         x="664.573"
+         y="-177.14"
          id="text3146">0..*</text>
     </g>
   </g>
