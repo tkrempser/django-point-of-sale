@@ -38,3 +38,9 @@ Finally, start the container:
 ```
 sudo docker start postgres
 ```
+
+## Creating a user for Django administration:
+In the same directory of `manage.py`, execute:
+```
+python manage.py createsuperuser
+```
