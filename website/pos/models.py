@@ -14,6 +14,7 @@ class Customer(models.Model):
 class Product(models.Model):
     name = models.CharField(max_length=60)
     price = models.FloatField()
+    commission = models.FloatField(default=0.0)
 
     def __str__(self):
         return self.name
@@ -33,8 +34,8 @@ class Order(models.Model):
 class OrderProduct(models.Model):
     order = models.ForeignKey(Order, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
-    commission = models.FloatField()
     quantity = models.IntegerField(default=1)
+    commission = models.FloatField(default=0.04)
 
     class Meta:
         unique_together = ('order', 'product')
