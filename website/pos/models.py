@@ -28,7 +28,7 @@ class Order(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.customer.email
+        return f"{self.created_at} - {self.customer.email}"
 
 
 class OrderProduct(models.Model):
@@ -39,3 +39,6 @@ class OrderProduct(models.Model):
 
     class Meta:
         unique_together = ('order', 'product')
+
+    def __str__(self):
+        return f"{self.order.created_at} - {self.order.customer.email} - {self.product.name} ({self.quantity})"
