@@ -12,10 +12,10 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   height="307.2pt"
+   height="256pt"
    viewBox="0.00 0.00 928.00 256.00"
    weidth="928pt"
-   width="1113.6pt"
+   width="928pt"
    version="1.1"
    id="svg3154"
    sodipodi:docname="class-diagram.svg"
@@ -28,7 +28,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,15 +40,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="814"
+     inkscape:window-width="816"
      inkscape:window-height="480"
      id="namedview3156"
      showgrid="false"
-     inkscape:zoom="0.93480605"
-     inkscape:cx="1372.325"
-     inkscape:cy="67.151641"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:zoom="1.1217672"
+     inkscape:cx="1102.0382"
+     inkscape:cy="57.067452"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg3154" />
   <defs
@@ -9105,7 +9104,7 @@
          transform="translate(0,0)"
          x="214.854"
          y="-105.46"
-         id="text3072">0..*</text>
+         id="text3072">0..</text>
       <text
          style="font-size:8px; font-family:Verdana;"
          text-anchor="middle"
@@ -9168,7 +9167,7 @@
          transform="translate(0,0)"
          x="475.58"
          y="-139.697"
-         id="text3094">1..*</text>
+         id="text3094">1..</text>
       <text
          style="font-size:8px; font-family:Verdana;"
          text-anchor="middle"
