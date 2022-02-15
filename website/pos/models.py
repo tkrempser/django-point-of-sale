@@ -22,9 +22,10 @@ class Product(models.Model):
 
 class Order(models.Model):
     customer = models.ForeignKey(
-        Customer, on_delete=models.CASCADE, related_name='orders')
+        Customer, on_delete=models.CASCADE)
     seller = models.ForeignKey(
-        User, on_delete=models.CASCADE, related_name='orders')
+        User, on_delete=models.CASCADE)
+    products = models.ManyToManyField(Product, through='OrderProduct')
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
@@ -34,8 +35,8 @@ class Order(models.Model):
 class OrderProduct(models.Model):
     order = models.ForeignKey(Order, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
-    quantity = models.IntegerField(default=1)
-    commission = models.FloatField(default=0.04)
+    quantity = models.PositiveIntegerField(default=1)
+    commission = models.FloatField(default=0.0)
 
     class Meta:
         unique_together = ('order', 'product')
