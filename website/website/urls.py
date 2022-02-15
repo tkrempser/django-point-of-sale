@@ -9,9 +9,10 @@ router.register(r'users', views.UserViewSet)
 router.register(r'customers', views.CustomerViewSet)
 router.register(r'products', views.ProductViewSet)
 router.register(r'orders', views.OrderViewSet)
+router.register(r'order-product', views.OrderProductViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
 ]

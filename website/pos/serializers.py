@@ -1,7 +1,7 @@
 from django.contrib.auth.models import User
 from rest_framework import serializers
 
-from pos.models import Customer, Product, Order
+from pos.models import Customer, Product, Order, OrderProduct
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
@@ -23,6 +23,15 @@ class ProductSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class OrderSerializer(serializers.HyperlinkedModelSerializer):
+    products = serializers.HyperlinkedRelatedField(
+        many=True, view_name='product-detail', read_only=True)
+
     class Meta:
         model = Order
-        fields = ['url', 'customer', 'seller', 'created_at']
+        fields = ['url', 'created_at', 'customer', 'seller', 'products']
+
+
+class OrderProductSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = OrderProduct
+        fields = ['url', 'order', 'product', 'quantity', 'commission']
