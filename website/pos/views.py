@@ -16,10 +16,13 @@ class UserViewSet(viewsets.ModelViewSet):
     @action(detail=True)
     def commissions(self, request, pk):
         user = self.get_object()
-        commissions = OrderProduct.objects.filter(
-            order__seller=user).aggregate(Sum('commission'))
+        order_products = OrderProduct.objects.filter(order__seller=user)
+        commissions = 0.0
+        for order_product in order_products:
+            commissions += order_product.commission * \
+                order_product.quantity * order_product.product.price
 
-        return Response(commissions['commission__sum'])
+        return Response(round(commissions, 2))
 
 
 class CustomerViewSet(viewsets.ModelViewSet):
