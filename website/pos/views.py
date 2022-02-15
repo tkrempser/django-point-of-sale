@@ -3,11 +3,11 @@ from rest_framework import viewsets
 from rest_framework import permissions
 
 from pos.models import Customer, Product, Order
-from pos.serializers import UserSerializer, CustomerSerializer, ProductrSerializer, OrderSerializer
+from pos.serializers import UserSerializer, CustomerSerializer, ProductSerializer, OrderSerializer
 
 
 class UserViewSet(viewsets.ModelViewSet):
-    queryset = User.objects.all().order_by('-date_joined')
+    queryset = User.objects.all()
     serializer_class = UserSerializer
     permission_classes = [permissions.IsAuthenticated]
 
@@ -20,7 +20,7 @@ class CustomerViewSet(viewsets.ModelViewSet):
 
 class ProductViewSet(viewsets.ModelViewSet):
     queryset = Product.objects.all()
-    serializer_class = ProductrSerializer
+    serializer_class = ProductSerializer
     permission_classes = [permissions.IsAuthenticated]
 
 
