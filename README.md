@@ -1,7 +1,7 @@
 # point-of-sale
 
 ## Live demo
-Browsable API endpoint: https://pos.krempser.com.br/.
+Browsable API endpoint: https://pos.krempser.com.br/. Also available in raw json: https://pos.krempser.com.br/.json.
 
 ## Class diagrams
 Basic representation of this project's models:
