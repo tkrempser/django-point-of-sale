@@ -144,6 +144,11 @@ REST_FRAMEWORK = {
 
 # CORS
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
-]
+if not DEBUG:
+    CORS_ALLOWED_ORIGINS = [
+        'https://tkrempser.github.io/',
+    ]
+else:
+    CORS_ALLOWED_ORIGINS = [
+        'http://localhost:3000',
+    ]
