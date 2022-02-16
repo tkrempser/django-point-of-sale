@@ -51,3 +51,6 @@ In the same directory of `manage.py`, execute:
 ```
 python manage.py createsuperuser
 ```
+
+## Trusted origin and CORS:
+In the project settings.py file, update the `CSRF_TRUSTED_ORIGINS` and `CORS_ALLOWED_ORIGINS` variables according to your environment.
