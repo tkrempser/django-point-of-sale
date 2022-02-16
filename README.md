@@ -1,5 +1,8 @@
 # point-of-sale
 
+## Live demo
+Browsable API endpoint: https://pos.krempser.com.br/.
+
 ## Class diagrams
 Basic representation of this project's models:
 ![Class diagram](https://raw.githubusercontent.com/tkrempser/point-of-sale/main/etc/class-diagram.svg)
