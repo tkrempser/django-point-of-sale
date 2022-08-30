@@ -1,4 +1,4 @@
-# point-of-sale
+# django-point-of-sale
 
 ## Live demo
 Browsable REST API endpoint: https://pos.krempser.com.br/. Also available in raw json: https://pos.krempser.com.br/.json.
