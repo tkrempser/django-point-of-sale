@@ -22,10 +22,10 @@ Open a terminal and execute:
 ```
 python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
 ```
-Grab the output and replace <SECRET_KEY> in the template in the next section.
+Grab the output and replace `<SECRET_KEY>` in the template in the next section.
 
 ## Creating environment file
-Create a .env file in the same directory of `manage.py` file using the template below. Replace <SECRET_KEY>, <DATABASE_NAME>, <DATABASE_PASSWORD>, <DATABASE_HOST> with your own values.
+Create a .env file in the same directory of `manage.py` file using the template below. Replace `<SECRET_KEY>`, `<DATABASE_NAME>`, `<DATABASE_PASSWORD>`, `<DATABASE_HOST>` with your own values.
 
 ```
 SECRET_KEY=<SECRET_KEY>
