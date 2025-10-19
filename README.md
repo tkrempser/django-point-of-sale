@@ -12,7 +12,6 @@ Basic representation of this project's models:
 | /order-products/ | Read, create, update, delete products from orders | GET, POST, PUT, DELETE |
 | /products/ | Read, create, update, delete products | GET, POST, PUT, DELETE |
 | /users/ | Read, create, update, delete sellers | GET, POST, PUT, DELETE |
-| /users/commissions/ | Read seller's commissions | GET |
 
 ## Generating the secret key for Django
 Open a terminal and execute:
