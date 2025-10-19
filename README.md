@@ -1,8 +1,5 @@
 # django-point-of-sale
 
-## Live demo
-Browsable REST API endpoint: https://pos.krempser.com.br/. Also available in raw json: https://pos.krempser.com.br/.json.
-
 ## Class diagrams
 Basic representation of this project's models:
 ![Class diagram](https://raw.githubusercontent.com/tkrempser/point-of-sale/main/etc/class-diagram.svg)
@@ -60,13 +57,4 @@ sudo docker start postgres
 In the same directory of `manage.py`, execute:
 ```
 python manage.py createsuperuser
-```
-
-## Trusted origin and CORS
-In the project `settings.py` file, update the `CSRF_TRUSTED_ORIGINS` and `CORS_ALLOWED_ORIGINS` variables according to your environment.
-
-## Runing tests
-In the same directory of `manage.py`, execute:
-```
-pytest
 ```
