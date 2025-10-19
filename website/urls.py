@@ -1,8 +1,10 @@
-from django.urls import path
+"""URL configuration for website project."""
+
 from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
 from pos import views
+
 
 router = routers.DefaultRouter()
 router.register(r'users', views.UserViewSet)
