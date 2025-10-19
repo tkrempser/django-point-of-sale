@@ -3,9 +3,9 @@
   "configurations": [
     {
       "name": "Python: Django",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
-      "program": "${workspaceFolder}/website/manage.py",
+      "program": "${workspaceFolder}/manage.py",
       "args": [
         "runserver",
         "8001"
